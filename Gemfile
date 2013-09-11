@@ -10,8 +10,4 @@ end
 
 
 # during development, do not release
-if ENV['TRAVIS']
-  gem 'jasmine-core', :git => 'http://github.com/pivotal/jasmine.git'
-else
-  gem 'jasmine-core', :path => '../jasmine'
-end
+gem 'jasmine-core', :git => 'http://github.com/tjgrathwell/jasmine.git'
